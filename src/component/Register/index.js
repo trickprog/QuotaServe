@@ -68,7 +68,6 @@ const RegisterArea = () => {
                                     <div className="login_submit">
                                         <button className="theme-btn-one btn-black-overlay btn_md mx-2" type="submit">Register</button>
                                         <button className="theme-btn-one btn-black-overlay btn_md" type="submit">Log In With Google</button>
-
                                     </div>
                                 </form>
                             </div>
