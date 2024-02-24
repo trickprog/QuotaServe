@@ -96,7 +96,7 @@ const Footer = () => {
                   <img src={logo} alt="logo" />
                 </Link>
                 <p>
-                  <strong>QUOTASERV</strong>serves contractors in over 90% of
+                  <strong>EQUIPOS DE CONTRCION</strong>serves contractors in over 90% of
                   Latin America and The Caribbean, selling a great variety of
                   machinery, parts, and selected construction
                   material.Authorized dealer for the major brands in
@@ -221,7 +221,7 @@ const Footer = () => {
             <div className="col-lg-6 col-md-6 col-sm-6 col-12">
               <div className="copyright_left">
                 <h6>
-                  © CopyRight 2024 <span>QUOTASERV</span>
+                  © CopyRight 2024 <span>EQUIPOS DE CONTRCION</span>
                 </h6>
               </div>
             </div>

@@ -97,6 +97,10 @@ export const MenuData = [
         name: "404 Error",
         href: "/error",
       },
+      {
+        name: "Chat",
+        href: "/chatroom",
+      },
     ],
   },
 ];

@@ -15,10 +15,10 @@ const AboutTop = () => {
             </div>
             <div className="col-lg-6 col-md-12 col-sm-12 col-12">
               <div className="about_top_left_content">
-                <h2>ABOUT OUR QUOTASERV</h2>
+                <h2>ABOUT OUR EQUIPOS DE CONTRCION</h2>
                 <h4>Trust.Knowledge.Value </h4>
                 <p>
-                  The President of QUOTASERV, Jose Vladimir Lockhart was born
+                  The President of EQUIPOS DE CONTRCION, Jose Vladimir Lockhart was born
                   into a family of contractors, which built roads, bridges,
                   commercial and public buildings.
                 </p>
@@ -31,14 +31,14 @@ const AboutTop = () => {
                   brands were American In 1996, the location of Miami near The
                   Caribbean and Latin America, made it the perfect place to
                   establish a company dedicated to serving the needs of
-                  contractors. Hence, <strong>QUOTASERV</strong> was born.
+                  contractors. Hence, <strong>EQUIPOS DE CONTRCION</strong> was born.
                 </p>
                 <p>
-                  In 2000 QUOTASERV expands its service and offerings to Mexico,
+                  In 2000 EQUIPOS DE CONTRCION expands its service and offerings to Mexico,
                   Venezuela, Colombia and Panama. 2004, adds all Central
                   America, besides Peru and Ecuador. A few years after,
                   Argentina, Uruguay, and Paraguay are added to the list of
-                  countries served. Nowaday, QUOTASERV serves contractors in
+                  countries served. Nowaday, EQUIPOS DE CONTRCION serves contractors in
                   over 90% of Latin America and The Caribbean, selling a great
                   variety of machinery, parts, and selected construction
                   material. We continue to grow, because of the trust that our

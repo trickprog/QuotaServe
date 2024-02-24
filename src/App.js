@@ -116,6 +116,9 @@ const ScrollToTop = loadable(
 const Fashion = loadable(() => pMinDelay(import("./page/"), 250), {
   fallback: <Loading />,
 });
+const Chatroom = loadable(() => pMinDelay(import("./page/chatroom"), 250), {
+  fallback: <Loading />,
+});
 
 const App = () => {
   return (
@@ -176,6 +179,7 @@ const App = () => {
             <Route path="/privacy-policy" exact component={PrivacyPolicy} />
             <Route path="/faqs" exact component={Faqs} />
             <Route path="/contact-two" exact component={ContactTwo} />
+            <Route path="/chatroom" exact component={Chatroom} />
             <Route exact component={Error} />
           </Switch>
         </Router>

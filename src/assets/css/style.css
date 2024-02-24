@@ -265,11 +265,14 @@ ul li {
     color: #fff;
     background-color: #000;
 }
-
+.chat-bg-black {
+    background-color: #000;
+    color: #fff;
+}
 
 .bg-black {
     background-color: #000;
-    color: #fff;
+    color: #ffffff;
     border: 1px solid #000;
 }
 
@@ -3241,7 +3244,9 @@ button {
     transform: translateX(0);
 }
 
-
+.chat-card-body{
+    padding:0.25rem
+}
 
 /* --Banner Bottom Area-- */
 .el_banner_bottom {

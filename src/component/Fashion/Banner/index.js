@@ -15,7 +15,7 @@ const Banner = () => {
                   data-wow-duration="3.0s"
                   data-wow-delay=".3s"
                 >
-                  Quotaserv
+                  equipos de contrcion
                   <span
                     className="wow flipInX"
                     data-wow-duration="2.0s"
