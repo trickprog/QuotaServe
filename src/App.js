@@ -119,6 +119,18 @@ const Fashion = loadable(() => pMinDelay(import("./page/"), 250), {
 const Chatroom = loadable(() => pMinDelay(import("./page/chatroom"), 250), {
   fallback: <Loading />,
 });
+const Verification = loadable(
+  () => pMinDelay(import("./page/verification"), 250),
+  {
+    fallback: <Loading />,
+  }
+);
+const itemNotFound = loadable(
+  () => pMinDelay(import("./page/itemNotFound"), 250),
+  {
+    fallback: <Loading />,
+  }
+);
 
 const App = () => {
   return (
@@ -180,6 +192,8 @@ const App = () => {
             <Route path="/faqs" exact component={Faqs} />
             <Route path="/contact-two" exact component={ContactTwo} />
             <Route path="/chatroom" exact component={Chatroom} />
+            <Route path="/verification/:id" exact component={Verification} />
+            <Route path="/item-not-found" component={itemNotFound} />
             <Route exact component={Error} />
           </Switch>
         </Router>

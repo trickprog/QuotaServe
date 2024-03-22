@@ -8,6 +8,7 @@ import TopHeader from "./TopHeader";
 import { useHistory } from "react-router-dom";
 import svg from "../../../assets/img/svg/cancel.svg";
 import svgsearch from "../../../assets/img/svg/search.svg";
+import Translate from '../GoogleTranslate/Translate'
 
 import { useDispatch, useSelector } from "react-redux";
 import Swal from "sweetalert2";
@@ -101,12 +102,12 @@ const Header = () => {
   const isSticky = (e) => {
     const header = document.querySelector(".header-section");
     if (header) {
-        const scrollTop = window.scrollY;
-        scrollTop >= 250
-            ? header.classList.add("is-sticky")
-            : header.classList.remove("is-sticky");
+      const scrollTop = window.scrollY;
+      scrollTop >= 250
+        ? header.classList.add("is-sticky")
+        : header.classList.remove("is-sticky");
     }
-};
+  };
 
   return (
     <>
@@ -135,6 +136,9 @@ const Header = () => {
                   </div>
 
                   <ul className="header-action-link action-color--black action-hover-color--golden">
+                    <li>
+                      <Translate />
+                    </li>
                     <li>
                       {favorites.length ? (
                         <a

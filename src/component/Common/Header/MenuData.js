@@ -74,16 +74,8 @@ export const MenuData = [
     href: "#!",
     children: [
       {
-        name: "Vendor Dashboard",
-        href: "/vendor-dashboard",
-      },
-      {
         name: "Order Success",
         href: "/order-success",
-      },
-      {
-        name: "Customer Dashboard",
-        href: "/my-account",
       },
       {
         name: "Privacy Policy",
@@ -100,6 +92,75 @@ export const MenuData = [
       {
         name: "Chat",
         href: "/chatroom",
+      },
+      {
+        name: "Verification",
+        href: "/verification/1",
+      },
+      {
+        name: "Item Not Found",
+        href: "/item-not-found",
+      },
+      {
+        name: "Seller Registeration",
+        href: "/seller-register",
+      },
+    ],
+  },
+  {
+    role: "vender",
+    name: "Dashboard",
+    href: "#!",
+    children: [
+      {
+        name: "Dashboard",
+        href: "/my-account",
+        role: "customer",
+      },
+      {
+        name: "Orders",
+        href: "/my-account/customer-order",
+        role: "customer",
+      },
+      {
+        name: "Address",
+        href: "/my-account/customer-address",
+        role: "customer",
+      },
+      {
+        name: "Profile",
+        href: "/my-account/customer-account-details",
+        role: "customer",
+      },
+      {
+        name: "Dashboard",
+        href: "/vendor-dashboard",
+        role: "vendor",
+      },
+      {
+        name: "Products",
+        href: "/vendor/all-product",
+        role: "vendor",
+      },
+      {
+        name: "Orders",
+        href: "/vendor/all-order",
+        role: "vendor",
+      },
+      {
+        name: "Profile",
+        href: "/vendor/vendor-profile",
+        role: "vendor",
+      },
+      {
+        name: "Add Products",
+        href: "/vendor/add-products",
+        role: "vendor",
+      },
+      {
+        name: "Settings",
+        href: "/vendor/vendor-setting",
+        role: "vendor",
       },
     ],
   },
